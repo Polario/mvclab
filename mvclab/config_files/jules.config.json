@@ -1,0 +1,25 @@
+{
+  "mode": "development",
+  "rules": "strict",
+  "outputPath": "back-end/",
+  "codeGeneration": {
+    "useTypeHints": true,
+    "includeDocstrings": true,
+    "followPEP8": true
+  },
+  "testing": {
+    "framework": "pytest",
+    "coverage": true,
+    "generateTests": true
+  },
+  "documentation": {
+    "format": "markdown",
+    "includeExamples": true,
+    "autoGenerate": true
+  },
+  "security": {
+    "scanDependencies": true,
+    "checkSecrets": true,
+    "enforceBestPractices": true
+  }
+} 

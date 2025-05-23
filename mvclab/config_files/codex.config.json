@@ -1,0 +1,25 @@
+{
+  "language": "javascript",
+  "suggestionLimit": 5,
+  "excludeDirs": ["node_modules", "dist"],
+  "codeStyle": {
+    "useES6": true,
+    "useTypeScript": true,
+    "useReact": true
+  },
+  "completion": {
+    "maxTokens": 100,
+    "temperature": 0.2,
+    "topP": 0.95
+  },
+  "context": {
+    "maxFiles": 5,
+    "maxTokensPerFile": 500,
+    "includeComments": true
+  },
+  "suggestions": {
+    "includeTests": true,
+    "includeDocstrings": true,
+    "includeExamples": true
+  }
+} 

@@ -1,0 +1,25 @@
+{
+  "language": "python",
+  "styleGuide": "PEP8",
+  "debugMode": true,
+  "testing": {
+    "framework": "pytest",
+    "coverage": true,
+    "parallel": true
+  },
+  "linting": {
+    "tool": "flake8",
+    "maxLineLength": 88,
+    "ignoreRules": ["E203", "W503"]
+  },
+  "formatting": {
+    "tool": "black",
+    "lineLength": 88,
+    "targetVersion": "py39"
+  },
+  "typeChecking": {
+    "tool": "mypy",
+    "strict": true,
+    "ignoreMissingImports": true
+  }
+} 
