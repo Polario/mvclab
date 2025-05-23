@@ -1,0 +1,2 @@
+[console_scripts]
+mvclab = mvclab.cli:main

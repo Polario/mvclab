@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mvclab"
+version = "0.1.0"
+description = "MVC Lab Framework for managing Git-based projects with agents."
+authors = [
+    { name = "Martin", email = "martin@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.6"
+dependencies = [
+    "gitpython>=3.1.0"
+]
+
+[project.scripts]
+mvclab = "mvclab.cli:main" 

@@ -1,20 +1,4 @@
 {
-  "framework": "react",
-  "outputDir": "front-end/src/components",
-  "designSource": "figma",
-  "codeStyle": {
-    "useTypeScript": true,
-    "useFunctionalComponents": true,
-    "useHooks": true
-  },
-  "componentSettings": {
-    "createTests": true,
-    "createStories": true,
-    "createStyles": true
-  },
-  "designSettings": {
-    "useFigmaTokens": true,
-    "exportFormat": "svg",
-    "includeResponsive": true
-  }
+  "agent": "v0",
+  "description": "Default v0 agent config template."
 } 
